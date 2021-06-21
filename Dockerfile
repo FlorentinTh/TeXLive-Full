@@ -2,7 +2,7 @@ FROM debian:buster-slim
 
 LABEL maintainer "Florentin Thullier <florentin.thullier1@uqac.ca>"
 
-ARG VERSION=2017
+ARG VERSION=2018
 
 RUN apt-get update \
   && apt-get install -y ghostscript gnupg wget make curl libgetopt-long-descriptive-perl \
